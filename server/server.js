@@ -8,7 +8,7 @@ app.use(bodyParser.json())
 
 // 设置跨域 cors
 app.all('*', function (req, res, next) {
-  res.header('Access-Control-Allow-Origin', 'http://localhost:8082')
+  res.header('Access-Control-Allow-Origin', 'http://localhost:8081')
   res.header('Access-Control-Allow-Headers', 'Content-Type,Token,plantform')
   res.header('Content-Type', 'application/json;charset=utf-8')
   next()

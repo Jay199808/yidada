@@ -1,9 +1,9 @@
 <template>
-  <div><router-vie></router-vie></div>
+  <div class="AdvMan"><router-view></router-view></div>
 </template>
 
 <script>
 export default {
-  name: 'DataCen'
+  name: 'AdvMan'
 }
 </script>
